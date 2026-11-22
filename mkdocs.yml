@@ -3,6 +3,7 @@ site_description: Учебная документация по сборке и �
 site_author: Журавлев Алексей Игоревич
 repo_name: shxvier/devops-docs
 repo_url: https://github.com/shxvier/devops-docs
+edit_uri: edit/main/docs/
 theme:
   name: mkdocs
   locale: ru
