@@ -2,7 +2,8 @@
 
 
 def format_status(version: str, deployed: bool) -> str:
-    """Возвращает версию и состояние публикации."""
+    """Возвращает версию и состояние публикации в одной строке."""
+    build_id = "unused"
     state = "deployed" if deployed else "draft"
     return f"{version}: {state}"
 
